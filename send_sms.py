@@ -3,8 +3,7 @@ from credentials import account_sid , auth_token, my_cell, my_twilio
 
 client = Client(account_sid , auth_token)
 
-x = ['Rushi \n' for i in range(10)]
-my_msg = ''.join(x)
+my_msg = "Enter your message here"
 
 
 
